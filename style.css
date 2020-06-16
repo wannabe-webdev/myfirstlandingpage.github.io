@@ -202,7 +202,7 @@ header {
     width: 100%;
     height: 100%;
     background-color: rgba(0,0,0,0);
-    transition: all 0.1s;
+    transition: all 0.2s;
   }
   .img-container:hover::before {
     background-color: rgba(0,0,0,0.6);
@@ -325,6 +325,58 @@ header {
   margin-right: 8px;
 }
 /* КОНЕЦ ОФОРМЛЕНИЯ КАРТОЧЕК */
+.browse-all-items {
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Lora' serif;
+  font-size: 14px;
+  color: rgb(82, 87, 93);
+  padding: 10px 20px;
+  border: 1px solid #f72464;
+  border-radius: 3px;
 
+  max-width: 160px;
+  max-height: 40px;
+
+  transition: all .3s ease;
+
+  margin-bottom: 100px;
+}
+
+
+.new-products {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.browse-all-items:hover {
+  background-color: #f72464;
+  color: #fff;
+}
 
 /* blocks */
+
+.intersection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  max-height: 185px;
+  background-color: pink;
+  background-image: url(./img/dark-bg-1.png);
+}
+.intersection__title {
+  font-family: 'Lora' serif;
+  font-size: 60px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  margin-left: 130px;
+
+}
+
+.intersection-btn {
+  margin-right: 130px;
+  cursor: pointer;
+}
+
+
